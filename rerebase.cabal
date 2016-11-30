@@ -1,13 +1,13 @@
 name:
   rerebase
 version:
-  1.0.1
+  1.0.1.1
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
-  This package can be used as a drop-in replacement for \"base\",
-  with all the modules preserving the original APIs and
-  being located in the original namespaces.
+  A rich drop-in replacement for \"base\".
+  For details and docs please visit 
+  <https://github.com/nikita-volkov/rerebase the project's GitHub page>.
 homepage:
   https://github.com/nikita-volkov/rerebase 
 bug-reports:
