@@ -20,10 +20,6 @@ A drop-in replacement for the "base" package, which extends it with reexports of
 
 * Due to a wide range of dependencies, which in some cases have wide bounds, there is a risk of transitive API-breaking changes
 
-# Using with Cabal
-
-Since this package uses exactly the same namespaces as the packages it reexports, you cannot have your project depend directly on both. So, when you have "rerebase" in your dependencies, there must be no "text" or "bytestring" and etc.
-
 # Recommended use-cases
 
 * End-applications (executables)
@@ -38,7 +34,17 @@ Since this package uses exactly the same namespaces as the packages it reexports
 
 It's not recommended to depend on "rerebase" in the release versions of libraries, since it's best for the authors of packages to be directly responsible for the version bounds of their dependencies. Also in the community there is a phenomenon of packages with higher number of dependencies being trusted lesser.
 
-# Resolving conflicts
+# Supported GHC versions
+
+All versions starting from `7.8`.
+
+# Usage 
+
+## Cabal
+
+Since this package uses exactly the same namespaces as the packages it reexports, you cannot have your project depend directly on both. So, when you have "rerebase" in your dependencies, there must be no "text" or "bytestring" and etc.
+
+## GHCi, Setup.hs and scripts
 
 When "rerebase" is installed in the local package database, GHCi will complain about having two conflicting Prelude modules to import. It is also known that the same applies to the `Setup.hs` build scripts accompanying the Cabal files as well as any scripts executed with the interpreter.
 
