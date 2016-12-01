@@ -1,9 +1,8 @@
-
-## About
+# About
 
 A drop-in replacement for the "base" package, which extends it with reexports of the APIs of a bunch of de-facto standard libraries like "text", "bytestring", "vector", "containers", "unordered-containers", "hashable", "transformers", "stm". It reexports all the standard modules from those libraries as well as "base" under **the same** namespaces. To the end-user it looks like his library depends on those packages directly. As an icing it also replaces the standard `Prelude` module with a way richer one packed with types and functionality.
 
-## Pros
+# Pros
 
 * Relieves you from maintaining an endless list of dependencies on de-facto standard libraries with frozen APIs
 
@@ -15,17 +14,17 @@ A drop-in replacement for the "base" package, which extends it with reexports of
 
 * Compared to the alternative solutions like ["rebase"](https://github.com/nikita-volkov/rebase), requires no changes in the actual codebase
 
-## Cons
+# Cons
 
 * Brings in a long list of dependencies. Although, in the end, most apps bring those dependencies in either directly or transitively any way.
 
 * Due to a wide range of dependencies, which in some cases have wide bounds, there is a risk of transitive API-breaking changes
 
-## Using with Cabal
+# Using with Cabal
 
 Since this package uses exactly the same namespaces as the packages it reexports, you cannot have your project depend directly on both. So, when you have "rerebase" in your dependencies, there must be no "text" or "bytestring" and etc.
 
-## Recommended use-cases
+# Recommended use-cases
 
 * End-applications (executables)
 
@@ -35,11 +34,11 @@ Since this package uses exactly the same namespaces as the packages it reexports
 
 * During the development phase of a library
 
-## Unrecommended use-cases
+# Unrecommended use-cases
 
 It's not recommended to depend on "rerebase" in the release versions of libraries, since it's best for the authors of packages to be directly responsible for the version bounds of their dependencies. Also in the community there is a phenomenon of packages with higher number of dependencies being trusted lesser.
 
-## Resolving conflicts
+# Resolving conflicts
 
 When "rerebase" is installed in the local package database, GHCi will complain about having two conflicting Prelude modules to import. It is also known that the same applies to the `Setup.hs` build scripts accompanying the Cabal files as well as any scripts executed with the interpreter.
 
@@ -51,6 +50,6 @@ ghc-pkg hide rerebase
 
 Alternatively, if you're brave, and love "rerebase" so much, you can hide the "base" package instead.
 
-## Contribution
+# Contribution
 
-This package is generated using [the "rerebase-generator" tool](https://github.com/nikita-volkov/rerebase-generator). So all extension PRs should be done to that project instead.
+This package is generated using [the "rerebase-generator" tool](https://github.com/nikita-volkov/rerebase-generator). It also acts merely as a wrapper around [the "rebase" library](https://github.com/nikita-volkov/rebase), which is itself generated using [the according "rebase-generator" tool](https://github.com/nikita-volkov/rebase-generator). So PRs should be done to the "generator" libraries.
