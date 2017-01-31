@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.0.1.1
+  1.0.2
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -314,6 +314,8 @@ library
     Control.Concurrent.STM.TVar
     Control.Monad.STM
     Data.Scientific
+    Data.ByteString.Builder.Scientific
+    Data.Text.Lazy.Builder.Scientific
     Data.UUID
     Data.DList
     Data.Void
@@ -322,4 +324,4 @@ library
     Control.DeepSeq
     Control.Monad.Fail
   build-depends:
-    rebase >= 1.0.6 && < 1.1
+    rebase >= 1.0.8 && < 1.1
