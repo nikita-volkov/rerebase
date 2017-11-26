@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.1.2
+  1.2
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -90,7 +90,6 @@ library
     Control.Monad.Trans
     Control.Monad.Trans.Class
     Control.Monad.Trans.Cont
-    Control.Monad.Trans.Either
     Control.Monad.Trans.Except
     Control.Monad.Trans.Identity
     Control.Monad.Trans.List
@@ -327,4 +326,4 @@ library
   exposed:
     False
   build-depends:
-    rebase >= 1.1.1 && < 1.2
+    rebase >= 1.2 && < 1.3
