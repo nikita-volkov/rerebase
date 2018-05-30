@@ -55,7 +55,3 @@ ghc-pkg hide rerebase
 ```
 
 Alternatively, if you're brave, and love "rerebase" so much, you can hide the "base" package instead.
-
-# Contribution
-
-This package is generated using [the "rerebase-generator" tool](https://github.com/nikita-volkov/rerebase-generator). It also acts merely as a wrapper around [the "rebase" library](https://github.com/nikita-volkov/rebase), which is itself generated using [the according "rebase-generator" tool](https://github.com/nikita-volkov/rebase-generator). So PRs should be done to the "generator" libraries.
