@@ -356,7 +356,6 @@ library
     GHC.MVar
     GHC.Num
     GHC.Pack
-    GHC.PArr
     GHC.Profiling
     GHC.Ptr
     GHC.Read
@@ -400,4 +399,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.2.4
+    rebase ==1.3
