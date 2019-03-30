@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.3
+  1.3.1
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -189,6 +189,7 @@ library
     Data.IORef
     Data.Isomorphism
     Data.Ix
+    Data.Kind
     Data.List
     Data.List.NonEmpty
     Data.List1
@@ -369,6 +370,7 @@ library
     GHC.STRef
     GHC.TopHandler
     GHC.TypeLits
+    GHC.TypeNats
     GHC.Unicode
     GHC.Weak
     GHC.Word
@@ -399,4 +401,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.3
+    rebase ==1.3.1
