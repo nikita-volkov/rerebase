@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.4
+  1.4.1
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -58,6 +58,7 @@ library
     Control.Concurrent.STM.TQueue
     Control.Concurrent.STM.TSem
     Control.Concurrent.STM.TVar
+    Control.Comonad
     Control.DeepSeq
     Control.Exception
     Control.Exception.Base
@@ -405,4 +406,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.4
+    rebase ==1.4.1
