@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.4.1
+  1.5
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -114,6 +114,7 @@ library
     Control.Monad.Zip
     Control.Selective
     Control.Selective.Free
+    Control.Selective.Multi
     Control.Selective.Rigid.Free
     Control.Selective.Rigid.Freer
     Data.Biapplicative
@@ -406,4 +407,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.4.1
+    rebase ==1.5
