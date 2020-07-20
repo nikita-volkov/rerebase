@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.6.1
+  1.7
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -155,6 +155,7 @@ library
     Data.Complex
     Data.Data
     Data.DList
+    Data.DList.DNonEmpty
     Data.Dynamic
     Data.Either
     Data.Either.Combinators
@@ -408,4 +409,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.6.1
+    rebase ==1.7
