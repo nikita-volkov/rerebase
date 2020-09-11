@@ -32,7 +32,7 @@ A drop-in replacement for the "base" package, which extends it with reexports of
 
 # Unrecommended use-cases
 
-It's not recommended to depend on "rerebase" in the release versions of libraries, since it's best for the authors of packages to be directly responsible for the version bounds of their dependencies. Also in the community there is a phenomenon of packages with higher number of dependencies being trusted lesser.
+It's not recommended to depend on "rerebase" in the release versions of libraries, since it's best for the authors of packages to be directly responsible for the version bounds of their dependencies. Also in the community there is a phenomenon of packages with higher number of dependencies being trusted less.
 
 # Supported GHC versions
 
