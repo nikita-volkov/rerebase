@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.7.1.1
+  1.7.2
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -380,6 +380,7 @@ library
     GHC.Ptr
     GHC.Read
     GHC.Real
+    GHC.Records
     GHC.Show
     GHC.ST
     GHC.Stable
@@ -421,4 +422,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.7.1.1
+    rebase ==1.7.2
