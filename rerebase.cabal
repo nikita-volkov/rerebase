@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.7.3
+  1.7.4
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -375,6 +375,7 @@ library
     GHC.List
     GHC.MVar
     GHC.Num
+    GHC.OverloadedLabels
     GHC.Pack
     GHC.Profiling
     GHC.Ptr
@@ -422,4 +423,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.7.3
+    rebase ==1.7.4
