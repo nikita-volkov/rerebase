@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.7.4
+  1.8
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -185,6 +185,7 @@ library
     Data.Graph
     Data.Groupoid
     Data.Hashable
+    Data.Hashable.Time
     Data.HashMap.Lazy
     Data.HashMap.Strict
     Data.HashSet
@@ -423,4 +424,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.7.4
+    rebase ==1.8
