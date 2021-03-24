@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.10.0.1
+  1.11
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -39,7 +39,6 @@ library
   default-language:
     Haskell2010
   exposed-modules:
-    Contravariant.Extras
     Control.Applicative
     Control.Applicative.Backwards
     Control.Applicative.Lift
@@ -425,4 +424,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.10.0.1
+    rebase ==1.11
