@@ -151,7 +151,6 @@ library
     Data.Complex
     Data.Data
     Data.DList
-    Data.DList.DNonEmpty
     Data.Dynamic
     Data.Either
     Data.Either.Combinators
@@ -421,4 +420,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.12.1
+    rebase ==1.13
