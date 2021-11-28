@@ -173,6 +173,8 @@ library
     Data.Functor.Contravariant.Divisible
     Data.Functor.Extend
     Data.Functor.Identity
+    Data.Functor.Invariant
+    Data.Functor.Invariant.TH
     Data.Functor.Plus
     Data.Functor.Product
     Data.Functor.Reverse
