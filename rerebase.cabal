@@ -178,6 +178,7 @@ library
     Data.Functor.Reverse
     Data.Functor.Sum
     Data.Graph
+    Data.Group
     Data.Groupoid
     Data.Hashable
     Data.Hashable.Time
