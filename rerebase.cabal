@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.13.2
+  1.14
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -423,4 +423,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.13.2
+    rebase ==1.14
