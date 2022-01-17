@@ -44,6 +44,7 @@ library
     Control.Applicative.Lift
     Control.Arrow
     Control.Category
+    Control.Comonad
     Control.Concurrent
     Control.Concurrent.Chan
     Control.Concurrent.MVar
@@ -57,7 +58,6 @@ library
     Control.Concurrent.STM.TQueue
     Control.Concurrent.STM.TSem
     Control.Concurrent.STM.TVar
-    Control.Comonad
     Control.DeepSeq
     Control.Exception
     Control.Exception.Base
