@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.14
+  1.15
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -183,7 +183,6 @@ library
     Data.Group
     Data.Groupoid
     Data.Hashable
-    Data.Hashable.Time
     Data.HashMap.Lazy
     Data.HashMap.Strict
     Data.HashSet
@@ -268,6 +267,7 @@ library
     Data.Time.Clock
     Data.Time.Clock.POSIX
     Data.Time.Clock.TAI
+    Data.Time.Compat
     Data.Time.Format
     Data.Time.LocalTime
     Data.Traversable
@@ -423,4 +423,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.14
+    rebase ==1.15
