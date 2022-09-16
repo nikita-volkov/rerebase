@@ -6,28 +6,14 @@
 packages:
 - completed:
     pantry-tree:
-      sha256: 61263e71050e1c895bb67e4c0f05497419818e8e79b8bff9e3eabf17759e3232
-      size: 4092
-    hackage: vector-0.13.0.0@sha256:ec337a1371bc306658e8338612e975f37a3f7700716441608b7afb66ae356d4c,8774
+      sha256: f6a6e1d9f4ae6debef291c5ddd215174467ee48218ba763a37f5e809e217f830
+      size: 29033
+    hackage: rebase-1.16.0.1@sha256:fd24334b509f60daf95bae9c928cd7c7158fe1a4e58e3832ecfc649e2632b508,14355
   original:
-    hackage: vector-0.13.0.0
-- completed:
-    pantry-tree:
-      sha256: 99de0751367cf53df872999edfb9e3c24207cf946442ccccf7487d74c7f12c1d
-      size: 325
-    hackage: vector-stream-0.1.0.0@sha256:5500b39bd69ba5384638db0b451c8eaf40ef52544355741bd73436b0da9ec3a8,1336
-  original:
-    hackage: vector-stream-0.1.0.0
-- completed:
-    pantry-tree:
-      sha256: 302b140ee5ccf6754ab96154486051f9ab989d3cbaa7c9674e1e9f0de7cdd07b
-      size: 232
-    hackage: generically-0.1@sha256:16d54a08bcdf708395c2200a28ffcba55e90479dc96ed617dbb94f0411f7a7af,1024
-  original:
-    hackage: generically-0.1
+    hackage: rebase-1.16.0.1
 snapshots:
 - completed:
-    sha256: 6935ec7d6f8306ab967fd8edcc9d0773dfeee59345103cb021ebedacd19c5c6b
-    size: 613125
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2022/6/20.yaml
-  original: nightly-2022-06-20
+    sha256: 507441b1ddc1e0f6d76f83fd213ed4ff9c34c171a6c1af2c3eb45d7067532cb6
+    size: 635634
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2022/9/16.yaml
+  original: nightly-2022-09-16

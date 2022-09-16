@@ -1,7 +1,3 @@
-resolver: nightly-2022-06-20
+resolver: nightly-2022-09-16
 extra-deps:
-  - vector-0.13.0.0
-  - vector-stream-0.1.0.0
-  - generically-0.1
-  - rebase-1.16
-allow-newer: true
+  - rebase-1.16.0.1
