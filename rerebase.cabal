@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.16.0.1
+  1.16.1
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -269,6 +269,7 @@ library
     Data.Time.Clock.TAI
     Data.Time.Compat
     Data.Time.Format
+    Data.Time.Format.ISO8601
     Data.Time.LocalTime
     Data.Traversable
     Data.Traversable.Instances
@@ -423,4 +424,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.16.0.1
+    rebase ==1.16.1

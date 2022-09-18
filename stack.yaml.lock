@@ -6,14 +6,14 @@
 packages:
 - completed:
     pantry-tree:
-      sha256: f6a6e1d9f4ae6debef291c5ddd215174467ee48218ba763a37f5e809e217f830
-      size: 29033
-    hackage: rebase-1.16.0.1@sha256:fd24334b509f60daf95bae9c928cd7c7158fe1a4e58e3832ecfc649e2632b508,14355
+      sha256: d183b8f85c7ecc1138bda927cb22d3f45c986d299b08ec4c5173b30adf8df46e
+      size: 29115
+    hackage: rebase-1.16.1@sha256:45b031efbc6706bd960469b576f9b962b9753c7cecc777e459cb72f3d99cf393,14389
   original:
-    hackage: rebase-1.16.0.1
+    hackage: rebase-1.16.1
 snapshots:
 - completed:
-    sha256: 507441b1ddc1e0f6d76f83fd213ed4ff9c34c171a6c1af2c3eb45d7067532cb6
-    size: 635634
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2022/9/16.yaml
-  original: nightly-2022-09-16
+    sha256: 2b54dab52718c316413ffda74058ceee837946be8bdf321e3bc99aee8abfb64c
+    size: 636695
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/nightly/2022/9/17.yaml
+  original: nightly-2022-09-17
