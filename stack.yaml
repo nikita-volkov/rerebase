@@ -1,3 +1,0 @@
-resolver: nightly-2022-09-17
-extra-deps:
-  - rebase-1.16.1
