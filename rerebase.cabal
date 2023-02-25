@@ -1,7 +1,7 @@
 name:
   rerebase
 version:
-  1.16.1
+  1.18
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 description:
@@ -69,7 +69,6 @@ library
     Control.Monad.Fix
     Control.Monad.Identity
     Control.Monad.IO.Class
-    Control.Monad.List
     Control.Monad.Reader
     Control.Monad.Reader.Class
     Control.Monad.RWS
@@ -94,7 +93,6 @@ library
     Control.Monad.Trans.Cont
     Control.Monad.Trans.Except
     Control.Monad.Trans.Identity
-    Control.Monad.Trans.List
     Control.Monad.Trans.Maybe
     Control.Monad.Trans.Reader
     Control.Monad.Trans.RWS
@@ -424,4 +422,4 @@ library
   exposed:
     False
   build-depends:
-    rebase ==1.16.1
+    rebase ==1.18
