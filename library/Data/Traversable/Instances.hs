@@ -1,7 +1,3 @@
-module Data.Traversable.Instances
-(
-  module Rebase.Data.Traversable.Instances
-)
-where
+module Data.Traversable.Instances where
 
-import Rebase.Data.Traversable.Instances
+import Rebase.Data.Traversable.Instances ()

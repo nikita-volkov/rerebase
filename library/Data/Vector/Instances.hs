@@ -1,7 +1,3 @@
-module Data.Vector.Instances
-(
-  module Rebase.Data.Vector.Instances
-)
-where
+module Data.Vector.Instances where
 
-import Rebase.Data.Vector.Instances
+import Rebase.Data.Vector.Instances ()

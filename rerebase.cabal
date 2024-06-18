@@ -1,6 +1,6 @@
 cabal-version: 3.0
 name:          rerebase
-version:       1.20.2
+version:       1.21
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 
@@ -64,9 +64,7 @@ library
     Control.Monad.Signatures
     Control.Monad.ST
     Control.Monad.ST.Lazy
-    Control.Monad.ST.Lazy.Safe
     Control.Monad.ST.Lazy.Unsafe
-    Control.Monad.ST.Safe
     Control.Monad.ST.Strict
     Control.Monad.ST.Unsafe
     Control.Monad.State
@@ -181,7 +179,6 @@ library
     Data.Kind
     Data.List
     Data.List.NonEmpty
-    Data.List1
     Data.Map
     Data.Map.Lazy
     Data.Map.Strict
@@ -211,7 +208,6 @@ library
     Data.Semigroup.Bifoldable
     Data.Semigroup.Bitraversable
     Data.Semigroup.Foldable
-    Data.Semigroup.Foldable.Class
     Data.Semigroup.Traversable
     Data.Semigroup.Traversable.Class
     Data.Semigroupoid
@@ -295,7 +291,6 @@ library
     Foreign.C.Types
     Foreign.Concurrent
     Foreign.ForeignPtr
-    Foreign.ForeignPtr.Safe
     Foreign.ForeignPtr.Unsafe
     Foreign.Marshal
     Foreign.Marshal.Alloc
@@ -306,7 +301,6 @@ library
     Foreign.Marshal.Unsafe
     Foreign.Marshal.Utils
     Foreign.Ptr
-    Foreign.Safe
     Foreign.StablePtr
     Foreign.Storable
     GHC.Arr
@@ -316,8 +310,6 @@ library
     GHC.Conc.IO
     GHC.Conc.Signal
     GHC.Conc.Sync
-    GHC.ConsoleHandler
-    GHC.Constants
     GHC.Desugar
     GHC.Enum
     GHC.Environment
@@ -332,14 +324,12 @@ library
     GHC.Foreign
     GHC.ForeignPtr
     GHC.Generics
-    GHC.GHCi
     GHC.Int
     GHC.IO
     GHC.IO.Buffer
     GHC.IO.BufferedIO
     GHC.IO.Device
     GHC.IO.Encoding
-    GHC.IO.Encoding.CodePage
     GHC.IO.Encoding.Failure
     GHC.IO.Encoding.Iconv
     GHC.IO.Encoding.Latin1
@@ -361,7 +351,6 @@ library
     GHC.MVar
     GHC.Num
     GHC.OverloadedLabels
-    GHC.Pack
     GHC.Profiling
     GHC.Ptr
     GHC.Read
@@ -403,8 +392,7 @@ library
     Text.Read
     Text.Read.Lex
     Text.Show
-    Text.Show.Functions
     Unsafe.Coerce
 
   exposed:          False
-  build-depends:    rebase ==1.20.2
+  build-depends:    rebase ==1.21
