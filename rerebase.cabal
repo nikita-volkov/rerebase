@@ -1,6 +1,6 @@
 cabal-version: 3.0
 name:          rerebase
-version:       1.21.2
+version:       1.22
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 
@@ -310,7 +310,6 @@ library
     GHC.Conc.IO
     GHC.Conc.Signal
     GHC.Conc.Sync
-    GHC.Desugar
     GHC.Enum
     GHC.Environment
     GHC.Err
@@ -395,4 +394,4 @@ library
     Unsafe.Coerce
 
   exposed:          False
-  build-depends:    rebase ==1.21.2
+  build-depends:    rebase ==1.22
