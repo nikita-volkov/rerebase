@@ -19,7 +19,7 @@ license-file:  LICENSE
 
 source-repository head
   type:     git
-  location: git://github.com/nikita-volkov/rerebase.git
+  location: https://github.com/nikita-volkov/rerebase
 
 library
   default-language: Haskell2010
