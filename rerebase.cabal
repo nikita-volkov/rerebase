@@ -1,6 +1,6 @@
 cabal-version: 3.0
 name:          rerebase
-version:       1.22
+version:       1.23
 synopsis:
   Reexports from "base" with a bunch of other standard libraries
 
@@ -393,4 +393,4 @@ library
     Rebase.Unsafe.Coerce as Unsafe.Coerce,
 
   exposed:          False
-  build-depends:    rebase ==1.22
+  build-depends:    rebase ==1.23
